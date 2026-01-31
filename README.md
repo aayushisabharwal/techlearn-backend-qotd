@@ -1,8 +1,9 @@
-QOTD (Question of the Day) Backend API
+# QOTD (Question of the Day) Backend API
+
 A backend system for managing daily coding challenges in an edtech platform.
 
 🚀 Live Deployment
-Base URL: https://qotd-backend.onrender.com
+Base URL: https://qotd-backend-remh.onrender.com
 
 📋 Features
 ✅ Get today's coding question
@@ -15,7 +16,7 @@ Base URL: https://qotd-backend.onrender.com
 
 ✅ No authentication required (as per requirements)
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Runtime: Node.js
 
 Framework: Express.js
@@ -26,7 +27,7 @@ Middleware: CORS, dotenv
 
 Deployment: Render
 
-📁 Project Structure
+# 📁 Project Structure
 text
 qotd-backend/
 ├── src/
@@ -208,7 +209,7 @@ javascript
   timeTaken: Number,  // in seconds
   submittedAt: String  // ISO timestamp
 }
-🧪 Mock Evaluation
+# 🧪 Mock Evaluation
 The system uses a mock evaluation service that:
 
 Returns random results (70% correct, 30% incorrect)
@@ -217,7 +218,7 @@ Simulates different error scenarios (timeout, runtime errors, test failures)
 
 In production, this would be replaced with actual code execution in a Docker sandbox
 
-🔧 Configuration
+# 🔧 Configuration
 Port Configuration
 Default: 3000
 
@@ -232,7 +233,7 @@ Data persists until server restart
 
 Add more questions by modifying the questions array
 
-🚀 Deployment
+# 🚀 Deployment
 Deploying to Render
 Push code to GitHub repository
 
@@ -254,7 +255,8 @@ Environment Variables for Production
 env
 PORT=10000  # Render assigns port automatically
 NODE_ENV=production
-📈 Performance
+
+# 📈 Performance
 Response time: < 100ms for most endpoints
 
 Supports concurrent requests
@@ -263,7 +265,7 @@ No database latency (in-memory storage)
 
 Stateless architecture ready for horizontal scaling
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 With more time, I would:
 
 Add Real Code Execution
@@ -298,7 +300,7 @@ Detailed analytics dashboard with graphs
 
 Question difficulty adjustment based on success rate
 
-Scalability
+# Scalability
 
 Redis for caching frequently accessed questions
 
@@ -348,7 +350,7 @@ Code syntax highlighting
 
 Social features (follow friends, share achievements)
 
-🐛 Error Handling
+# 🐛 Error Handling
 The API returns appropriate HTTP status codes:
 
 200: Success
@@ -368,7 +370,7 @@ json
   "success": false,
   "error": "Descriptive error message"
 }
-🤝 Contributing
+# 🤝 Contributing
 Fork the repository
 
 Create a feature branch (git checkout -b feature/AmazingFeature)
@@ -379,19 +381,19 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📄 License
+# 📄 License
 This project is created for interview assessment purposes. Not for commercial use.
 
-👤 Author
-Interview Candidate
+# 👤 Author
+Interview Candidate : Aayushi Sabharwal
 
 Task completed for: TechLearn Solutions Backend Interview
 
-Date: January 2024
+Date: January 2026
 
 Position: Backend Developer
 
-🙏 Acknowledgements
+# 🙏 Acknowledgements
 TechLearn Solutions for the comprehensive interview task requirements
 
 Express.js team for the robust and minimalist web framework
@@ -401,4 +403,5 @@ Render.com for providing free hosting for demo projects
 The open-source community for countless libraries and tools
 
 All interview candidates who inspire continuous learning and improvement
+
 
